@@ -28,13 +28,9 @@ class JsonThreatAnalyzer:
         return "[OK] nothing suspicious found"
 
 def main():
-
     analyzer = JsonThreatAnalyzer()
-
     log = input("Log entry: ")
-
     result = analyzer.analyze_log(log)
-
     print(result)
 
 if __name__ == "__main__":
